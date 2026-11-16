@@ -1,0 +1,9 @@
+service: sls-express-aws-lambda-web-app-demo
+
+provider:
+  name: aws
+  region: us-west-2
+
+webApps:
+  api:
+    entry: src/server.js
